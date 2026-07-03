@@ -1,6 +1,6 @@
 {
-  "$schema": "https://schema.railpack.com",
+  "$schema": "https://schema.railwaypack.com",
   "deploy": {
-    "startCommand": "java $JAVA_OPTS -Dserver.port=$PORT -jar build/libs/demorail.jar"
+    "startCommand": "java $JAVA_OPTS -Dserver.port=$PORT -jar build/libs/demorailway.jar"
   }
 }

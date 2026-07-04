@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.railpack.com",
   "deploy": {
-    "startCommand": "java $JAVA_OPTS -Dserver.port=$PORT -jar $(find . -name '*.jar' ! -name '*plain*' | head -n 1)"
+    "startCommand": "java $JAVA_OPTS -Dserver.port=$PORT -jar build/libs/demorailway.jar"
   }
 }
